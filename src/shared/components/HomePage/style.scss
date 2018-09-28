@@ -1,0 +1,15 @@
+@import '../../css/base';
+@import '../../css/vars';
+
+.HomePage{
+  & > .content{
+    & > .repos{
+      & > .repo{
+        margin-bottom: 4px;
+      }
+    }
+  }
+}
+
+
+

@@ -1,0 +1,17 @@
+@import '../../css/vars';
+
+.Header{
+  display: flex !important;
+  background : $primary;
+  max-width : $max-width;
+  margin : auto;
+  font-weight: bold;
+  border-bottom : 1px solid #eee;
+  padding : 8px;
+
+  & > a{
+    padding: 8px;
+    text-decoration: none;
+    color: #fff;
+  }
+}

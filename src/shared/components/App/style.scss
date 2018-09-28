@@ -1,0 +1,8 @@
+@import '../../css/base';
+@import '../../css/vars';
+
+.app{
+  max-width : $max-width;
+  margin: auto auto;
+  outline: 1px solid $primary;
+}
